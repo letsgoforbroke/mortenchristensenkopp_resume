@@ -430,6 +430,64 @@
       color: rgba(247,244,239,0.5);
     }
 
+    /* ── TESTIMONIAL ── */
+    .testimonial-section {
+      background: var(--ink);
+      padding: 100px 48px;
+    }
+    .testimonial-section .section-header {
+      border-bottom-color: rgba(247,244,239,0.15);
+    }
+    .testimonial-section .section-num { color: var(--accent); }
+    .testimonial-section h2 { color: var(--paper); }
+    .testimonial-card {
+      max-width: 820px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .testimonial-quote-mark {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 100px;
+      line-height: 0.6;
+      color: var(--accent);
+      opacity: 0.4;
+      margin-bottom: 32px;
+      display: block;
+    }
+    .testimonial-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(18px, 2.5vw, 24px);
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.8;
+      color: rgba(247,244,239,0.9);
+    }
+    .testimonial-attribution {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+    .testimonial-name {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--paper);
+      letter-spacing: 0.06em;
+    }
+    .testimonial-role {
+      font-size: 12px;
+      color: rgba(247,244,239,0.45);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .testimonial-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--accent);
+      margin: 0 auto 20px;
+    }
+
     /* ── FOOTER ── */
     footer {
       padding: 28px 48px;
@@ -490,6 +548,7 @@
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
       <a href="#education">Education</a>
+      <a href="#testimonial">Testimonial</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
@@ -538,19 +597,19 @@
     </div>
     <div class="profile-grid">
       <div class="profile-text reveal">
-      Executive leader with a 25‑year track record driving digital transformation, commercial growth, 
-      and international expansion across technology, retail, life sciences, and SaaS. I combine deep expertise 
-      in enterprise platforms, AI enablement, and product strategy with strong commercial acumen from leading 
-      global sales, partnerships, and go‑to‑market execution.
-      <br><br>
-      I have scaled digital businesses across 30+ countries, doubled revenues, built high‑performing cross‑functional 
-      teams, and delivered platforms and products used by 40M+ consumers and 95% of employees in enterprise environments. 
-      My leadership spans engineering, product, sales, and delivery — enabling organizations to modernize, adopt AI at 
-      scale, and turn technology into measurable business value.
-      <br><br>
-      I thrive in roles where digital strategy meets commercial execution: shaping vision, building scalable operating 
-      models, and driving adoption across complex global organizations.
-       </div>
+        Executive leader with a 25-year track record driving digital transformation, commercial growth, and 
+        international expansion across technology, retail, life sciences, and SaaS. I combine deep expertise 
+        in enterprise platforms, AI enablement, and product strategy with strong commercial acumen from leading 
+        global sales, partnerships, and go-to-market execution.
+        <br><br>
+        I have scaled digital businesses across 30+ countries, doubled revenues, built high-performing 
+        cross-functional teams, and delivered platforms and products used by 40M+ consumers and 95% of employees 
+        in enterprise environments. My leadership spans engineering, product, sales, and delivery — enabling 
+        organizations to modernize, adopt AI at scale, and turn technology into measurable business value.
+        <br><br>
+        I thrive in roles where digital strategy meets commercial execution: shaping vision, building scalable 
+        operating models, and driving adoption across complex global organizations.
+      </div>
       <div class="competencies reveal">
         <div class="competency-item">Executive (Digital) Leadership</div>
         <div class="competency-item">Enterprise Platforms (M365, Power Platform, Copilot/Foundry, Azure)</div>
@@ -805,6 +864,25 @@
       </div>
     </div>
   </section>
+
+  <!-- TESTIMONIAL -->
+  <div class="testimonial-section" id="testimonial">
+    <div class="section-header reveal" style="max-width:1104px;margin:0 auto 60px;">
+      <span class="section-num">05</span>
+      <h2>Testimonial</h2>
+    </div>
+    <div class="testimonial-card reveal">
+      <span class="testimonial-quote-mark">"</span>
+      <p class="testimonial-text">I had the privilege of working with Morten for four years at tcc global and can confidently say that he's one of the most dedicated and effective leaders I've encountered. He consistently demonstrated a profound commitment to the team's success, creating an environment where collaboration thrived and individuals felt empowered.<br><br>
+      Beyond his focus on the team, he shows an exceptional ability to connect with stakeholders across the business. His strategic mindset and deep understanding of the organization's goals enabled him to make decisions that balanced short-term wins with long-term impact.<br><br>
+      He has the ability to manage with both fairness and empathy. His social intelligence fosters trust and respect, and he has an uncanny ability to navigate complex situations while ensuring everyone feels heard and valued. I wholeheartedly recommend Morten — he does not only get results but also inspires growth and collaboration at every level of the company.</p>
+      <div class="testimonial-attribution">
+        <div class="testimonial-divider"></div>
+        <div class="testimonial-name">Christian Jelbo</div>
+        <div class="testimonial-role">Product Manager – Marketing, LEGO Group &nbsp;·&nbsp; Reported directly to Morten</div>
+      </div>
+    </div>
+  </div>
 
   <!-- CONTACT -->
   <div class="contact-section" id="contact">
